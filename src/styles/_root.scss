@@ -1,0 +1,31 @@
+:root {
+  --primaryClr: hsl(358, 72%, 45%);
+  --primaryClr-00: hsl(358, 73%, 41%);
+  --primaryClr-100: hsl(358, 73%, 36%);
+  --primaryClr-200: hsl(358, 73%, 32%);
+  --primaryClr-300: hsl(358, 72%, 27%);
+  --primaryClr-400: hsl(358, 72%, 23%);
+  --primaryClr-500: hsl(357, 74%, 18%);
+  --primaryClr-600: hsl(358, 74%, 13%);
+  --primaryClr-700: hsl(358, 73%, 9%);
+  --primaryClr-800: hsl(0, 73%, 4%);
+
+  --primaryClr-l: hsl(358, 72%, 45%);
+  --primaryClr-l-00: hsl(358, 60%, 51%);
+  --primaryClr-l-100: hsl(358, 60%, 56%);
+  --primaryClr-l-200: hsl(357, 59%, 61%);
+  --primaryClr-l-300: hsl(358, 60%, 67%);
+  --primaryClr-l-400: hsl(358, 60%, 73%);
+  --primaryClr-l-500: hsl(357, 59%, 78%);
+  --primaryClr-l-600: hsl(359, 60%, 84%);
+  --primaryClr-l-700: hsl(358, 58%, 89%);
+  --primaryClr-l-800: hsl(356, 59%, 94%);
+
+  --fontClr-w: hsl(0, 0%, 97%);
+  --fontClr: hsl(0, 0%, 12%);
+  --bgClr: var(--primaryClr-l-800);
+  --cardShadow: 0px 4px 8px 0px hsla(358, 73%, 9%, 0.32);
+  --navShadow: 0px 2px 4px 0px hsla(358, 74%, 9%, 0.32);
+
+  --sectionPd: 4rem;
+}

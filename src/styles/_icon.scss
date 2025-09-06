@@ -1,0 +1,42 @@
+// Icon
+@mixin add-icon($url) {
+  -webkit-mask: url($url);
+  mask: url($url);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: var(--primaryClr);
+}
+
+@mixin plan-icon {
+  @include add-icon("/images/plan-icon.svg");
+}
+
+@mixin world-icon {
+  @include add-icon("/images/world-icon.svg");
+}
+
+@mixin memory-icon {
+  @include add-icon("/images/memory-icon.svg");
+}
+
+@mixin rating-icon {
+  @include add-icon("/images/rating-icon.svg");
+}
+
+@mixin insta-icon {
+  @include add-icon("/images/insta.svg");
+}
+
+@mixin fb-icon {
+  @include add-icon("/images/fb.svg");
+}
+
+@mixin arrow-left-icon {
+  @include add-icon("/images/arrow-left.svg");
+}
+
+@mixin arrow-right-icon {
+  @include add-icon("/images/arrow-right.svg");
+}

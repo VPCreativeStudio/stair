@@ -1,0 +1,39 @@
+@import ".//fonts";
+
+// Font styles
+$primary-font: "primaryFont", sans-serif;
+$regular-font: "primaryFont", sans-serif;
+$medium-font: "primaryFont", sans-serif;
+$bold-font: "primaryFont", sans-serif;
+$light-font: "primaryFont", sans-serif;
+$semi-font: "primaryFont", sans-serif;
+
+// Padding and Margin
+$base-padding: 1rem;
+$base-margin: 1rem;
+$small-padding: 0.5rem;
+$small-margin: 0.5rem;
+$large-padding: 1.5rem;
+$large-margin: 1.5rem;
+$extra-large-padding: 2rem;
+$extra-large-margin: 2rem;
+$border-radius: 0.5rem;
+$small-border-radius: 0.25rem;
+$large-border-radius: 1rem;
+$extra-large-border-radius: 1.5rem;
+// Z-Index
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
+$z-index-toast: 1080;
+$z-index-max: 1090;
+// Breakpoints
+$breakpoint-xs: 20rem;
+$breakpoint-sm: 36rem;
+$breakpoint-md: 48rem;
+$breakpoint-lg: 64rem;
+$breakpoint-xl: 80rem;
